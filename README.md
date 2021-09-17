@@ -10,7 +10,7 @@ In order to execute the mission, perform the following steps:
 
 - Wait until the following window is presented:
 
-<img src="https://i.ytimg.com/vi/K_o4Vcv4A9I/hqdefault.jpg" width=600>
+<img src="https://img.youtube.com/vi/K_o4Vcv4A9I/0.jpg" width=600>
 
 - Execute the script that launches the Aerostack components for this project using df motion control:
 
@@ -40,5 +40,5 @@ In order to stop executing all tmux windows, press Ctrl-c and execute
 
 The following video illustrates how to launch and execute the project:
 
-[ ![Launch](https://i.ytimg.com/vi/K_o4Vcv4A9I/hqdefault.jpg)](https://www.youtube.com/watch?v=K_o4Vcv4A9I)
+[ ![Launch](https://img.youtube.com/vi/K_o4Vcv4A9I/0.jpg)](https://www.youtube.com/watch?v=K_o4Vcv4A9I)
 
