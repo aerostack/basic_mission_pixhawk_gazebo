@@ -18,21 +18,21 @@ In order to execute the mission, perform the following steps:
 
 	or using pid motion control instead:
 
-	$ ./pid_main_launcher.sh
+	    $ ./pid_main_launcher.sh
 
-As a result of this command, a set of windows are presented to monitor the execution of the mission. These windows include:
-- Alphanumeric behavior viewer
-- Keyboard Teleoperation
+  As a result of this command, a set of windows are presented to monitor the execution of the mission. These windows include:
+  - Alphanumeric behavior viewer
+  - Keyboard Teleoperation
 
-You can navigate the windows using tmux commands:
-- Press Ctrl-b and release, the use the special keys, such as:
+  You can navigate the windows using tmux commands:
+  - Press Ctrl-b and release, the use the special keys, such as:
 	- "n" : go to the next window.
 	- "Up"/"Down" : go to the upper/lower window if divided.
 	- *any number such as "1" : go to the desired terminal number.
 
-In order to stop executing all tmux windows, press Ctrl-c and execute
+  In order to stop executing all tmux windows, press Ctrl-c and execute
 
-	$ ./stop.sh
+	    $ ./stop.sh
 
 - Execute the following command to run the mission:
 
