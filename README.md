@@ -10,7 +10,7 @@ In order to execute the mission, perform the following steps:
 
 - Wait until the following window is presented:
 
-<img src="https://github.com/aerostack/basic_mission_pixhawk_gazebo/blob/master/doc/LauncherGazebo.png" width=600>
+<img src="https://i.ytimg.com/vi/K_o4Vcv4A9I/hqdefault.jpg" width=600>
 
 - Execute the script that launches the Aerostack components for this project using df motion control:
 
