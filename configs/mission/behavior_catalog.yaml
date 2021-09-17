@@ -89,7 +89,6 @@ behaviors:
   task: FOLLOW_PATH
   requires:
   - task: QUADROTOR_DF_MOTION_CONTROL
-  - task: SEND_PATH
 
 - behavior: QUADROTOR_DF_MOTION_CONTROL
   package: quadrotor_motion_with_df_control
