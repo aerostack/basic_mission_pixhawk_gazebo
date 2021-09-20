@@ -5,6 +5,7 @@ NETWORK_ROSCORE=$1
 SESSION=$USER
 UAV_MASS=1.5
 
+mv $AEROSTACK_WORKSPACE/develIgnore $AEROSTACK_WORKSPACE/devel
 export AEROSTACK_PROJECT="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
 # Kill any previous session (-t -> target session, -a -> all other sessions )

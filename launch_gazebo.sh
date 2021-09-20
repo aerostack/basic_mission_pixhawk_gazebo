@@ -15,5 +15,6 @@ ${AEROSTACK_PROJECT}/install_dep.sh
 	export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:${AEROSTACK_PROJECT}/configs/gazebo/models
 	source $(rospack find px4)/Tools/setup_gazebo.bash $(rospack find px4) $(rospack find px4)/build/px4_sitl_default
 	source $(rospack find px4)/build/px4_sitl_default/build_gazebo/setup.sh
-	roslaunch px4 mavros_posix_sitl.launch world:=${AEROSTACK_PROJECT}/configs/gazebo/worlds/empty.world vehicle:=iris sdf:=${AEROSTACK_PROJECT}/configs/gazebo/models/iris_cam/iris_cam.sdf respawn_gazebo:=true
+	mv $AEROSTACK_WORKSPACE/devel $AEROSTACK_WORKSPACE/develIgnore
+	$(sleep 5 ; mv $AEROSTACK_WORKSPACE/develIgnore $AEROSTACK_WORKSPACE/devel) & roslaunch px4 mavros_posix_sitl.launch world:=${AEROSTACK_PROJECT}/configs/gazebo/worlds/empty.world vehicle:=iris sdf:=${AEROSTACK_PROJECT}/configs/gazebo/models/iris_cam/iris_cam.sdf respawn_gazebo:=true
 	pkill gzserver;pkill gzclient
