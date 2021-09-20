@@ -1,16 +1,16 @@
 position_x:
-    proportional_gain:    3.00
+    proportional_gain:    1.00
     derivative_gain:      0.20
-    integral_gain:        0.03
+    integral_gain:        0.00
     saturation_enabled:   true
     saturation_min:      -2.0
     saturation_max:       2.0
     anti_wind_up_enabled: false
     anti_wind_up:         0.5
 position_y:
-    proportional_gain:    3.00
+    proportional_gain:    1.00
     derivative_gain:      0.20
-    integral_gain:        0.03
+    integral_gain:        0.00
     saturation_enabled:   true
     saturation_min:      -2.0
     saturation_max:       2.0

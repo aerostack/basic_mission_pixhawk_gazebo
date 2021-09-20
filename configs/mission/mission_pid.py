@@ -15,7 +15,7 @@ def mission():
   mxc.executeTask('TAKE_OFF')
 
   print("FOLLOW_PATH...")
-  mxc.startTask('FOLLOW_PATH', path = [ [1, -1, 1] , [1, 1, 1] , [-1, 1, 1] , [-1, -1, 1], [0, 0, 1] ])
+  mxc.executeTask('FOLLOW_PATH', path = [ [1, -1, 1] , [1, 1, 1] , [-1, 1, 1] , [-1, -1, 1], [0, 0, 1] ])
 
   print("LAND...")
   mxc.executeTask('LAND', speed = 0.3)

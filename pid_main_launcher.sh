@@ -35,7 +35,7 @@ tmux send-keys "roslaunch basic_quadrotor_behaviors basic_quadrotor_behaviors.la
 tmux new-window -t $SESSION:4 -n 'Quadrotor Motion With PID Control'
 tmux send-keys "roslaunch quadrotor_motion_with_pid_control quadrotor_motion_with_pid_control.launch --wait \
     namespace:=drone$NUMID_DRONE \
-    robot_config_path:=${APPLICATION_PATH}/configs/drone$NUMID_DRONE \
+    robot_config_path:=${AEROSTACK_PROJECT}/configs/drone$NUMID_DRONE \
     uav_mass:=$UAV_MASS" C-m
 
 tmux new-window -t $SESSION:5 -n 'GroundTruth Gazebo'
