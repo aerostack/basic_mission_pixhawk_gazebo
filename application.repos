@@ -6,7 +6,7 @@ repositories:
   messages/aerostack_msgs:
     type: git 
     url: https://github.com/aerostack/aerostack_msgs
-    version: master
+    version: v5-libeccio
 
 #----------------------------------------------------------------------------
 # Behaviors
@@ -14,15 +14,15 @@ repositories:
   behaviors/basic_quadrotor_behaviors:
     type: git 
     url: https://github.com/aerostack/basic_quadrotor_behaviors
-    version: master
+    version: v5-libeccio
   behaviors/quadrotor_motion_with_df_control:
     type: git 
     url: https://github.com/aerostack/quadrotor_motion_with_df_control
-    version: master
+    version: v5-libeccio
   behaviors/quadrotor_motion_with_pid_control:
     type: git
     url: https://github.com/aerostack/quadrotor_motion_with_pid_control
-    version: master
+    version: v5-libeccio
     
 #----------------------------------------------------------------------------
 # Mission control
@@ -30,7 +30,7 @@ repositories:
   mission_control/python_based_mission_interpreter:
      type: git 
      url: https://github.com/aerostack/python_based_mission_interpreter
-     version: noetic
+     version: v5-libeccio
 
 #----------------------------------------------------------------------------
 # Executive
@@ -38,11 +38,11 @@ repositories:
   executive/coordinator_cbc:
     type: git 
     url: https://github.com/cvar-upm/coordinator_cbc
-    version: master
+    version: v5-libeccio
   executive/belief_manager:
     type: git
     url: https://github.com/aerostack/belief_manager
-    version: master
+    version: v5-libeccio
 
 #----------------------------------------------------------------------------
 # Simulation
@@ -50,7 +50,7 @@ repositories:
   simulation/px4_autopilot:
     type: git 
     url: https://github.com/aerostack/px4_autopilot
-    version: master
+    version: v5-libeccio
     
 #----------------------------------------------------------------------------
 # Hardware interface
@@ -58,7 +58,7 @@ repositories:
   hardware_interface/pixhawk_interface:
     type: git 
     url: https://github.com/aerostack/pixhawk_interface
-    version: master
+    version: v5-libeccio
 
 #----------------------------------------------------------------------------
 # User interface
@@ -66,11 +66,11 @@ repositories:
   user_interface/alphanumeric_viewer:
     type: git 
     url: https://github.com/aerostack/alphanumeric_viewer
-    version: master
+    version: v5-libeccio
   user_interface/keyboard_teleoperation_with_pid_control:
     type: git 
     url: https://github.com/aerostack/keyboard_teleoperation_with_pid_control
-    version: master
+    version: v5-libeccio
 
 #----------------------------------------------------------------------------
 # Libraries
@@ -78,39 +78,43 @@ repositories:
   libraries/behaviorlib:
     type: git 
     url: https://github.com/cvar-upm/behaviorlib
-    version: master
+    version: v5-libeccio
   libraries/robot_process:
     type: git 
     url: https://github.com/aerostack/robot_process
-    version: master
+    version: v5-libeccio
   libraries/lib_cvgekf:
     type: git 
     url: https://github.com/aerostack/lib_cvgekf
-    version: master
+    version: v5-libeccio
   libraries/lib_cvgutils:
     type: git 
     url: https://github.com/aerostack/lib_cvgutils
-    version: noetic
+    version: v5-libeccio
   libraries/mav_comm:
     type: git
     url: https://github.com/aerostack/mav_comm
-    version: master
+    version: v5-libeccio
   libraries/pugixml:
     type: git 
     url: https://github.com/aerostack/pugixml
-    version: master
+    version: v5-libeccio
   libraries/ros_utils_lib:
     type: git 
     url: https://github.com/aerostack/ros_utils_lib
-    version: master    
+    version: v5-libeccio    
   libraries/catkin_simple:
     type: git
     url: https://github.com/aerostack/catkin_simple
-    version: master
+    version: v5-libeccio
   libraries/eigen_catkin:
     type: git 
     url: https://github.com/aerostack/eigen_catkin
-    version: master
+    version: v5-libeccio
+  libraries/glog_catkin:
+    type: git 
+    url: https://github.com/aerostack/glog_catkin
+    version: v5-libeccio
 
 #----------------------------------------------------------------------------
 # Deprecated
@@ -122,15 +126,15 @@ repositories:
   deprecated/libraries/drone_process:
     type: git 
     url: https://github.com/aerostack/drone_process
-    version: master
+    version: v5-libeccio
   deprecated/libraries/dronemoduleinterfaceros:
     type: git 
     url: https://github.com/aerostack/dronemoduleinterfaceros
-    version: master
+    version: v5-libeccio
   deprecated/libraries/dronemoduleros:
     type: git 
     url: https://github.com/aerostack/dronemoduleros
-    version: master
+    version: v5-libeccio
 
 #----------------------------------------------------------------------------
 # Deprecated messages
@@ -138,4 +142,4 @@ repositories:
   deprecated/messages/dronemsgsros:
     type: git 
     url: https://github.com/aerostack/dronemsgsros
-    version: master
+    version: v5-libeccio
