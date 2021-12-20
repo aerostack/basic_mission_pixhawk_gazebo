@@ -154,5 +154,5 @@ exclusivity_constraints:
   - TAKE_OFF
   - LAND
   - HOVER
-  - FOLLOW_PATH
+  - SEND_PATH
   - MOVE_AT_SPEED

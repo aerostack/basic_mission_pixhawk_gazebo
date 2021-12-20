@@ -20,10 +20,6 @@ tmux new-window -t $SESSION:1 -n 'viewer + teleop'
 tmux send-keys "roslaunch alphanumeric_viewer alphanumeric_viewer.launch --wait \
     drone_id_namespace:=drone$NUMID_DRONE \
     my_stack_directory:=${AEROSTACK_PROJECT}" C-m
-
-tmux split-window -t $SESSION:1
-tmux send-keys  "roslaunch keyboard_teleoperation_with_pid_control keyboard_teleoperation_with_pid_control.launch --wait \
-  drone_id_namespace:=drone$NUMID_DRONE" C-m
             
 tmux new-window -t $SESSION:2 -n 'pixhawk interface'
 tmux send-keys "roslaunch pixhawk_interface pixhawk_interface.launch \
