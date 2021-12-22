@@ -18,7 +18,7 @@ repositories:
   behaviors/quadrotor_motion_with_df_control:
     type: git 
     url: https://github.com/aerostack/quadrotor_motion_with_df_control
-    version: devel
+    version: v5-libeccio
   behaviors/quadrotor_motion_with_pid_control:
     type: git
     url: https://github.com/aerostack/quadrotor_motion_with_pid_control
